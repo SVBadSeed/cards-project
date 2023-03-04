@@ -1,0 +1,159 @@
+.item {
+    position: relative;
+    margin: 0 0 18px 0;
+
+    width: 224px;
+    height: 368px;
+    overflow: hidden;
+
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1))
+}
+
+.itemSeen {
+    background-color: #FFF6A5;
+    margin: 0 0 24px 0;
+    overflow: hidden;
+
+    width: 224px;
+    height: 368px;
+
+    border-radius: 8px;
+
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1))
+}
+
+.show {
+    position: absolute;
+    top: 12px;
+    right: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    background: rgba(44, 44, 44, 0.74);
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 94px;
+    height: 24px;
+
+    z-index: 2;
+}
+
+.hide {
+    display: none;
+}
+
+.itemTop {
+    position: relative;
+}
+
+.content {
+    position: relative;
+    padding: 4px 10px 0 10px;
+}
+
+
+.svgContainer {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    bottom: 36px;
+    right: 14px;
+    z-index: 1;
+}
+
+.svgContainer svg {
+    margin-top: 15px;
+}
+
+.svgContainer svg:hover path {
+    cursor: pointer;
+    fill: #00A0AB;
+}
+
+
+.svgContainer2 {
+    position: absolute;
+    right: 14px;
+    z-index: 1;
+}
+
+.svgContainer2 svg {
+    margin-left: 8px;
+}
+
+
+.svgContainer2 svg:hover path {
+    cursor: pointer;
+    fill: #00A0AB;
+}
+
+.image {
+    width: 224px;
+    height: 260px;
+}
+
+
+.discount {
+    text-decoration: line-through;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #5A5A5A;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+
+    margin-bottom: 8px;
+    color: #2C2C2C;
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+
+    margin-bottom: 10px;
+    color: #2C2C2C;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.city {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #8F8F8F;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #8F8F8F;
+}
+
+@breakpoint (max-width: 1024px) {
+
+}

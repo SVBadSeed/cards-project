@@ -1,0 +1,67 @@
+.container {
+    margin: 25px auto 35px auto;
+    max-width: 968px;
+    overflow: hidden;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #2C2C2C;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    background: none;
+    border: none;
+
+    height: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #00A0AB;
+    cursor: pointer;
+}
+
+.button svg {
+    margin-left: 5px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .items {
+        justify-content: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
